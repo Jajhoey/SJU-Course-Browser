@@ -1,0 +1,162 @@
+[
+  {
+    "title": "COMPUTER PROG FUND 1",
+    "course_code": "CUS 1115",
+    "instructor": "Schweikert, Christina",
+    "day": "TF",
+    "seats_available": "2",
+    "type": "Lecture/Lab"
+  },
+  {
+    "title": "COMPUTER PROG FUND 1",
+    "course_code": "CUS 1115",
+    "instructor": "Smith-Thompason, Anne",
+    "day": "MR",
+    "seats_available": "1",
+    "type": "Lecture/Lab"
+  },
+  {
+    "title": "COMPUTER PROG FUND 2",
+    "course_code": "CUS 1116",
+    "instructor": "Wu, Jun",
+    "day": "W",
+    "seats_available": "16",
+    "type": "Lecture/Lab"
+  },
+  {
+    "title": "INTRO TO DATA STRUCTURES",
+    "course_code": "CUS 1126",
+    "instructor": "Keshtkar, Fazel",
+    "day": "TF",
+    "seats_available": "3",
+    "type": "Lecture/Lab"
+  },
+  {
+    "title": "ADVANCED DATA STRUCTURES",
+    "course_code": "CUS 1151",
+    "instructor": "Keshtkar, Fazel",
+    "day": "TF",
+    "seats_available": "13",
+    "type": "Lecture"
+  },
+  {
+    "title": "SOFTWARE DESIGN METHODS",
+    "course_code": "CUS 1156",
+    "instructor": "MacKellar, Bonnie",
+    "day": "MR",
+    "seats_available": "17",
+    "type": "Lecture"
+  },
+  {
+    "title": "SOFTWARE DESIGN METHODS",
+    "course_code": "CUS 1156",
+    "instructor": "Bukhari, Syed Ahmad Chan",
+    "day": "TF",
+    "seats_available": "5",
+    "type": "Lecture"
+  },
+  {
+    "title": "OPERATING SYSTEMS",
+    "course_code": "CUS 1163",
+    "instructor": "Schweikert, Christina",
+    "day": "TF",
+    "seats_available": "5",
+    "type": "Lecture/Lab"
+  },
+  {
+    "title": "DATABASE MANAGEMENT SYSTEMS",
+    "course_code": "CUS 1165",
+    "instructor": "MacKellar, Bonnie",
+    "day": "MR",
+    "seats_available": "3",
+    "type": "Lecture/Lab"
+  },
+  {
+    "title": "COMPUTER ARCHITECTURE",
+    "course_code": "CUS 1162",
+    "instructor": "Sklar, Ronald",
+    "day": "T",
+    "seats_available": "2",
+    "type": "Hybrid"
+  },
+  {
+    "title": "LOGICAL DESIGN",
+    "course_code": "CUS 1161",
+    "instructor": "Sklar, Ronald",
+    "day": "T",
+    "seats_available": "4",
+    "type": "Hybrid"
+  },
+  {
+    "title": "FUNDAMENTALS OF CYBER SECURITY",
+    "course_code": "CSS 1005",
+    "instructor": "Otero, Juan",
+    "day": "W",
+    "seats_available": "2",
+    "type": "Lecture/Lab"
+  },
+  {
+    "title": "NETWORK SECURITY",
+    "course_code": "CSS 1011",
+    "instructor": "Schmeelk, Suzanna",
+    "day": "T",
+    "seats_available": "0",
+    "type": "Hybrid"
+  },
+  {
+    "title": "CALCULUS I",
+    "course_code": "MTH 1009",
+    "instructor": "Cerulli, Thomas",
+    "day": "MR",
+    "seats_available": "0",
+    "type": "Lecture"
+  },
+  {
+    "title": "CALCULUS II",
+    "course_code": "MTH 1010",
+    "instructor": "Servas, Frank",
+    "day": "W",
+    "seats_available": "13",
+    "type": "Lecture"
+  },
+  {
+    "title": "PROBABILITY AND STATISTICS I",
+    "course_code": "MTH 1013",
+    "instructor": "Servas, Frank",
+    "day": "T",
+    "seats_available": "9",
+    "type": "Hybrid"
+  },
+  {
+    "title": "DIFFERENTIAL EQUATIONS",
+    "course_code": "MTH 1018",
+    "instructor": "Fechter, Ronald",
+    "day": "W",
+    "seats_available": "0",
+    "type": "Hybrid"
+  },
+  {
+    "title": "INTRODUCTION TO NETWORKS",
+    "course_code": "NET 1011",
+    "instructor": "Greenidge, Maxine",
+    "day": "W",
+    "seats_available": "0",
+    "type": "Lecture/Lab"
+  },
+  {
+    "title": "ROUTING & SWITCHING ESSENTIALS",
+    "course_code": "NET 1015",
+    "instructor": "Greenidge, Maxine",
+    "day": "W",
+    "seats_available": "0",
+    "type": "Lecture/Lab"
+  },
+  {
+    "title": "HEALTHCARE INFO & DATA MGT",
+    "course_code": "HCI 1002",
+    "instructor": "Bukhari, Syed Ahmad Chan",
+    "day": "TF",
+    "seats_available": "13",
+    "type": "Lecture/Lab"
+  }
+]

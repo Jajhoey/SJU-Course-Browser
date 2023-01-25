@@ -1,0 +1,32 @@
+{
+  "name": "sjucoursebrowser",
+  "version": "1.0.0",
+  "description": "Sample course browser for St. John's University",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jajhoey/SJU-Course-Browser.git"
+  },
+  "keywords": [
+    "search",
+    "ejs",
+    "node",
+    "express"
+  ],
+  "author": "Jajhoey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jajhoey/SJU-Course-Browser/issues"
+  },
+  "homepage": "https://github.com/Jajhoey/SJU-Course-Browser#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "json": "^10.0.0",
+    "node": "^15.4.0"
+  }
+}

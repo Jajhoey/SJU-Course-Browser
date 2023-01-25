@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/assets/bootstrap.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/stylesheet.css" type="text/css">
+    <script type="text/javascript" src="/assets/script.js"></script>
+    <title>SJU Course Lookup Homepage</title>
+  </head>
+  <body>
+    <div class="sjuLogo">
+      <img src="https://teenlife.s3.amazonaws.com/media/uploads/listings/r227M6vjcred.jpg" alt="SJU Logo">
+    </div>
+
+    <div class="headings">
+      <h1>Division of Computer Science, Mathematics, and Science</h1>
+      <h4>The Lesley H. and William L. Collins College of Professional Studies</h4>
+    </div>
+
+    <button id = "findCourses" type="button" name="button">Find Courses</button>
+
+    <div class="allCoursesButton">
+      <input id='allCoursesButton' type="button" value="List All Courses">
+    </div>
+
+    <div class="filters hidden">
+      <p>Search for courses by day available/Number of seats available:</p>
+
+      <div class="dropdownForm">
+        <form action="/dropdownResults" method="post">
+          <select name="input">
+            <option name ='MR' value="MR">Monday, Thursday</option>
+            <option name ='TF' value="TF">Tuesday, Friday</option>
+            <option name ='T' value="T">Tuesday</option>
+            <option name ='W' value="W">Wednesday</option>
+          </select>
+          <!--Values are both 5 here; this will be used to make the logic work in the router.js-->
+          <select name="input">
+            <option value="more">At least 5 available seats</option>
+            <option value="less">Less than 5 available seats</option>
+          </select>
+          <input type="submit" name="" value="Submit">
+        </form>
+      </div>
+
+      <p>OR</p>
+      <p>You can search by course name, course codes, instructor, course type(lecture/lab/hybrid), or day!</p>
+
+      <div class="searchBar">
+        <form id='searchForm' action="/searchResults" method="post">
+          <input id='searchInput' name="input" type="text">
+          <input id='searchButton' type="submit" value="Search">
+        </form>
+      </div>
+
+    </div>
+
+    <!--EJS Syntax-->
+    <div id = "allCourses" class="courses hidden">
+      <% data.forEach((course) => { %>
+        <ul> <strong><%= course.title %> </strong>
+          <li><%= course.course_code %></li>
+          <li><%= course.instructor %></li>
+          <li><%= course.day %></li>
+          <li>Seats: <%= course.seats_available %></li>
+          <li><%= course.type %></li>
+        </ul>
+      <% }) %>
+    </div>
+
+  </body>
+</html>

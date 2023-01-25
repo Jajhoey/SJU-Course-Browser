@@ -1,0 +1,75 @@
+.headings{
+  text-align: center;
+  border: 5px solid red;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.sjuLogo>img{
+  width:30%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+
+.searchBar{
+  margin-top: 10px;
+}
+
+.filters{
+  margin-left: 15%;
+  margin-bottom: 40px;
+}
+
+.hidden{
+  display: none;
+}
+
+.allCoursesButton{
+  float: right;
+  margin-right: 15%;
+  margin-bottom: 100px;
+  display: inline-block;
+}
+
+.checkboxes{
+  display: inline-block;
+}
+
+.courses>ul>li{
+  margin-left: 5%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.courses>ul{
+  margin-left: 10%;
+  margin-right: 15%;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+.backButton{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#searchForm{
+  margin-bottom: 10px;
+}
+
+#findCourses{
+  display: inline-block;
+  margin-left: 15%;
+}
+
+#allCoursesButton{
+  font-size: 16pt;
+}
+
+#findCourses{
+  font-size: 16pt;
+}
